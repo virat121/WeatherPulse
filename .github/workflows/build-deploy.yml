@@ -20,7 +20,7 @@ jobs:
           cp -r Src/Css public/
           cp -r Src/Js public/
           cp -r Src/Images public/
-        working-directory: public
+        working-directory: src
 
       - name: Commit and Push Changes
         run: |
